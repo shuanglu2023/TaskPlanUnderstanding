@@ -1,0 +1,3377 @@
+[
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "red",
+            "pyramid",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "purple",
+            "pyramid",
+            "in",
+            "the",
+            "corner",
+            "and",
+            "put",
+            "it",
+            "above",
+            "the",
+            "red",
+            "and",
+            "green",
+            "parallelipiped"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 12,
+                "end": 13,
+                "type": "Color"
+            },
+            {
+                "start": 14,
+                "end": 15,
+                "type": "Color"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 5,
+                "tail": 6,
+                "type": "Spatial"
+            },
+            {
+                "head": 1,
+                "tail": 7,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "the",
+            "blue",
+            "pyramid",
+            "above",
+            "the",
+            "grey",
+            "and",
+            "green",
+            "parallelipiped",
+            "in",
+            "the",
+            "corner"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Color"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 4,
+                "tail": 5,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "move",
+            "the",
+            "pyramid",
+            "from",
+            "the",
+            "top",
+            "of",
+            "the",
+            "yellow",
+            "tower",
+            "on",
+            "top",
+            "of",
+            "the",
+            "blue",
+            "one",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            },
+            {
+                "start": 14,
+                "end": 15,
+                "type": "Color"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 7,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 10,
+                "end": 13,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Spatial"
+            },
+            {
+                "head": 0,
+                "tail": 5,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "red",
+            "block",
+            "above",
+            "the",
+            "turquoise",
+            "block",
+            "and",
+            "put",
+            "it",
+            "above",
+            "the",
+            "other",
+            "turquoise",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Color"
+            },
+            {
+                "start": 14,
+                "end": 15,
+                "type": "Color"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 5,
+                "tail": 6,
+                "type": "Spatial"
+            },
+            {
+                "head": 1,
+                "tail": 7,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "blue",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "yellow",
+            "pyramid",
+            "and",
+            "put",
+            "it",
+            "above",
+            "the",
+            "grey",
+            "parallelipiped"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Color"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 4,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "red",
+            "block",
+            "in",
+            "the",
+            "corner",
+            "and",
+            "put",
+            "it",
+            "above",
+            "the",
+            "other",
+            "red",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Color"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 4,
+                "tail": 5,
+                "type": "Spatial"
+            },
+            {
+                "head": 1,
+                "tail": 6,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Drop",
+            "the",
+            "red",
+            "cube"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "pick",
+            "a",
+            "blue",
+            "block",
+            "and",
+            "place",
+            "it",
+            "on",
+            "the",
+            "yellow",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Color"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 4,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "blue",
+            "pyramid"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Move",
+            "the",
+            "green",
+            "block",
+            "one",
+            "square",
+            "to",
+            "the",
+            "left"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 2,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Put",
+            "red",
+            "block",
+            "on",
+            "top",
+            "of",
+            "the",
+            "green",
+            "-blue",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 7,
+                "end": 9,
+                "type": "Color"
+            },
+            {
+                "start": 3,
+                "end": 6,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 3,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Place",
+            "the",
+            "blue",
+            "cube",
+            "on",
+            "green",
+            "cube"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 3,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Move",
+            "the",
+            "yellow",
+            "block",
+            "into",
+            "the",
+            "far",
+            "left",
+            "corner",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 2,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "grey",
+            "block",
+            "above",
+            "the",
+            "green",
+            "block",
+            "",
+            "and",
+            "put",
+            "it",
+            "on",
+            "the",
+            "grey",
+            "and",
+            "blue",
+            "parallelipiped"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Color"
+            },
+            {
+                "start": 14,
+                "end": 15,
+                "type": "Color"
+            },
+            {
+                "start": 16,
+                "end": 17,
+                "type": "Color"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 12,
+                "end": 13,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": "6",
+                "tail": "7"
+            },
+            {
+                "type": "Transition",
+                "head": "1",
+                "tail": "8"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "blue",
+            "brick",
+            "off",
+            "the",
+            "yellow",
+            "brick",
+            "and",
+            "place",
+            "it",
+            "on",
+            "the",
+            "red",
+            "brick",
+            "at",
+            "the",
+            "edge",
+            "of",
+            "the",
+            "board",
+            ""
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Color"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Color"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 14,
+                "end": 15,
+                "type": "Trajector"
+            },
+            {
+                "start": 15,
+                "end": 16,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 5,
+                "tail": 6
+            },
+            {
+                "type": "Spatial",
+                "head": 7,
+                "tail": 8
+            },
+            {
+                "type": "Transition",
+                "head": 1,
+                "tail": 9
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "up",
+            "the",
+            "white",
+            "block",
+            "that",
+            "is",
+            "on",
+            "the",
+            "top",
+            "of",
+            "green",
+            "block",
+            "in",
+            "the",
+            "corner",
+            "and",
+            "place",
+            "it",
+            "on",
+            "the",
+            "white",
+            "single",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 17,
+                "end": 18,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "Color"
+            },
+            {
+                "start": 21,
+                "end": 22,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 7,
+                "end": 11,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 19,
+                "end": 20,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 5,
+                "tail": 6
+            },
+            {
+                "type": "Transition",
+                "head": 1,
+                "tail": 7
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Put",
+            "the",
+            "green",
+            "pyramid",
+            "on",
+            "the",
+            "red",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 3,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "red",
+            "block",
+            "and",
+            "put",
+            "it",
+            "above",
+            "the",
+            "purple",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Color"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 1,
+                "tail": 4
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "on",
+            "top",
+            "of",
+            "the",
+            "turquoise",
+            "and",
+            "red",
+            "tower",
+            "and",
+            "place",
+            "it",
+            "on",
+            "top",
+            "of",
+            "the",
+            "yellow",
+            ",",
+            "red",
+            ",",
+            "and",
+            "green",
+            "tower",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "Color"
+            },
+            {
+                "start": 12,
+                "end": 13,
+                "type": "Color"
+            },
+            {
+                "start": 21,
+                "end": 22,
+                "type": "Color"
+            },
+            {
+                "start": 23,
+                "end": 24,
+                "type": "Color"
+            },
+            {
+                "start": 26,
+                "end": 27,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 15,
+                "end": 16,
+                "type": "Action"
+            },
+            {
+                "start": 17,
+                "end": 20,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 7,
+                "tail": 8,
+                "type": "Spatial"
+            },
+            {
+                "head": 9,
+                "tail": 10,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "red",
+            "block",
+            "on",
+            "the",
+            "purple",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "grey",
+            "pyramid",
+            "which",
+            "is",
+            "putted",
+            "on",
+            "a",
+            "green",
+            "box",
+            "on",
+            "another",
+            "green",
+            "box",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Color"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 4,
+                "tail": 5,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "remove",
+            "one",
+            "blue",
+            "block",
+            "from",
+            "the",
+            "green",
+            "and",
+            "blue",
+            "tower",
+            "and",
+            "place",
+            "it",
+            "on",
+            "top",
+            "of",
+            "the",
+            "blue",
+            "and",
+            "red",
+            "tower",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Color"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            },
+            {
+                "start": 17,
+                "end": 18,
+                "type": "Color"
+            },
+            {
+                "start": 19,
+                "end": 20,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "Action"
+            },
+            {
+                "start": 13,
+                "end": 16,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 6,
+                "tail": 7,
+                "type": "Spatial"
+            },
+            {
+                "head": 8,
+                "tail": 9,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "green",
+            "block",
+            "above",
+            "the",
+            "blue",
+            "block",
+            "and",
+            "put",
+            "it",
+            "above",
+            "the",
+            "yellow",
+            "and",
+            "red",
+            "parallelipiped"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Color"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Color"
+            },
+            {
+                "start": 15,
+                "end": 16,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Action"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 5,
+                "tail": 6,
+                "type": "Spatial"
+            },
+            {
+                "head": 7,
+                "tail": 8,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "located",
+            "on",
+            "top",
+            "of",
+            "the",
+            "blue",
+            "block",
+            "and",
+            "place",
+            "it",
+            "on",
+            "top",
+            "of",
+            "the",
+            "red",
+            "and",
+            "yellow",
+            "tower",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "Color"
+            },
+            {
+                "start": 19,
+                "end": 20,
+                "type": "Color"
+            },
+            {
+                "start": 21,
+                "end": 22,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Action"
+            },
+            {
+                "start": 15,
+                "end": 18,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 5,
+                "tail": 6,
+                "type": "Spatial"
+            },
+            {
+                "head": 7,
+                "tail": 8,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "blue",
+            "block",
+            "and",
+            "put",
+            "it",
+            "above",
+            "the",
+            "green",
+            "block",
+            "in",
+            "the",
+            "corner"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "turquoise",
+            "pyramid",
+            "above",
+            "the",
+            "white",
+            "and",
+            "red",
+            "parallelipiped"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Color"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 4,
+                "tail": 5,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "red",
+            "block",
+            "above",
+            "the",
+            "green",
+            "block",
+            "and",
+            "put",
+            "it",
+            "above",
+            "the",
+            "yellow",
+            "and",
+            "green",
+            "parallelipiped"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Color"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Color"
+            },
+            {
+                "start": 15,
+                "end": 16,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Action"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 5,
+                "tail": 6,
+                "type": "Spatial"
+            },
+            {
+                "head": 7,
+                "tail": 8,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "blue",
+            "block",
+            "above",
+            "the",
+            "yellow",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "blue",
+            "pyramid",
+            "and",
+            "put",
+            "it",
+            "above",
+            "the",
+            "turquoise",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "red",
+            "block",
+            "above",
+            "the",
+            "blue",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "up",
+            "the",
+            "purple",
+            "pyramid",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "turquoise",
+            "pyramid",
+            "above",
+            "the",
+            "blue",
+            "and",
+            "green",
+            "parallelipiped",
+            "and",
+            "put",
+            "it",
+            "above",
+            "the",
+            "blue",
+            ",",
+            "white",
+            "and",
+            "turquoise",
+            "parallelipiped"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Color"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            },
+            {
+                "start": 15,
+                "end": 16,
+                "type": "Color"
+            },
+            {
+                "start": 17,
+                "end": 18,
+                "type": "Color"
+            },
+            {
+                "start": 19,
+                "end": 20,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "Action"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 7,
+                "tail": 8,
+                "type": "Spatial"
+            },
+            {
+                "head": 9,
+                "tail": 10,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "pink",
+            "pyramid",
+            "and",
+            "place",
+            "it",
+            "over",
+            "the",
+            "yellow",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Color"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Action"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "blue",
+            "block",
+            "and",
+            "put",
+            "it",
+            "above",
+            "the",
+            "grey",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "green",
+            "pyramid",
+            "and",
+            "put",
+            "it",
+            "on",
+            "the",
+            "blue",
+            "block",
+            "in",
+            "the",
+            "corner"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "pink",
+            "prism",
+            "from",
+            "red",
+            "block",
+            "and",
+            "place",
+            "it",
+            "on",
+            "the",
+            "blue",
+            "-",
+            "green",
+            "highest",
+            "blocks"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Color"
+            },
+            {
+                "start": 12,
+                "end": 13,
+                "type": "Color"
+            },
+            {
+                "start": 14,
+                "end": 15,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Action"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 5,
+                "tail": 6,
+                "type": "Spatial"
+            },
+            {
+                "head": 7,
+                "tail": 8,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "yellow",
+            "pyramid"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "place",
+            "the",
+            "blue",
+            "block",
+            "on",
+            "top",
+            "of",
+            "the",
+            "green",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 7,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Place",
+            "the",
+            "block",
+            "on",
+            "the",
+            "red",
+            "one",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Move",
+            "the",
+            "red",
+            "block",
+            ",",
+            "which",
+            "is",
+            "on",
+            "top",
+            "of",
+            "the",
+            "white",
+            "block",
+            ",",
+            "on",
+            "top",
+            "of",
+            "the",
+            "red",
+            "block",
+            ",",
+            "which",
+            "is",
+            "on",
+            "top",
+            "of",
+            "the",
+            "blue",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "Color"
+            },
+            {
+                "start": 18,
+                "end": 19,
+                "type": "Color"
+            },
+            {
+                "start": 27,
+                "end": 28,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 7,
+                "end": 10,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 14,
+                "end": 17,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 23,
+                "end": 26,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 5,
+                "tail": 6,
+                "type": "Spatial"
+            },
+            {
+                "head": 5,
+                "tail": 7,
+                "type": "Spatial"
+            },
+            {
+                "head": 5,
+                "tail": 8,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Place",
+            "the",
+            "blue",
+            "cube",
+            "on",
+            "red",
+            "cube",
+            "left",
+            "edge"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "the",
+            "blue",
+            "block",
+            "and",
+            "place",
+            "it",
+            "on",
+            "to",
+            "red",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Move",
+            "the",
+            "yellow",
+            "tetrahedron",
+            "on",
+            "top",
+            "of",
+            "the",
+            "red",
+            "blocks",
+            "in",
+            "the",
+            "corner",
+            "nearest",
+            "to",
+            "the",
+            "yellow",
+            "tetrahedron",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            },
+            {
+                "start": 16,
+                "end": 17,
+                "type": "Color"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 7,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 13,
+                "end": 15,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 4,
+                "tail": 5
+            },
+            {
+                "type": "Spatial",
+                "head": 4,
+                "tail": 6
+            },
+            {
+                "type": "Spatial",
+                "head": 4,
+                "tail": 7
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Put",
+            "the",
+            "yellow",
+            "pyramid",
+            "on",
+            "top",
+            "of",
+            "the",
+            "grey",
+            "tower",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 7,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Place",
+            "yellow",
+            "prism",
+            "on",
+            "top",
+            "of",
+            "the",
+            "red",
+            "cube"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Color"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "Color"
+            },
+            {
+                "start": 3,
+                "end": 6,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Move",
+            "pink",
+            "pyramid",
+            "on",
+            "top",
+            "of",
+            "grey",
+            "block",
+            "to",
+            "the",
+            "top",
+            "of",
+            "yellow",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Color"
+            },
+            {
+                "start": 12,
+                "end": 13,
+                "type": "Color"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 6,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 8,
+                "end": 12,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 4,
+                "tail": 5
+            },
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 6
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Move",
+            "the",
+            "pyramid",
+            "on",
+            "top",
+            "of",
+            "the",
+            "cube",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 6,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "the",
+            "yellow",
+            "block",
+            "which",
+            "is",
+            "on",
+            "top",
+            "of",
+            "red",
+            "block",
+            "and",
+            "place",
+            "it",
+            "above",
+            "the",
+            "blue",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 12,
+                "end": 13,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Color"
+            },
+            {
+                "start": 16,
+                "end": 17,
+                "type": "Color"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 14,
+                "end": 15,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 5,
+                "tail": 6
+            },
+            {
+                "type": "Transition",
+                "head": 1,
+                "tail": 7
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Drop",
+            "the",
+            "blue",
+            "cube",
+            "on",
+            "top",
+            "of",
+            "the",
+            "yellow",
+            "cube"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 7,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "lift",
+            "the",
+            "blue",
+            "cube",
+            "which",
+            "is",
+            "near",
+            "the",
+            "far",
+            "left",
+            "corner"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "place",
+            "the",
+            "yellow",
+            "pyramid",
+            "on",
+            "red",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 2
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Move",
+            "the",
+            "blue",
+            "cube",
+            "on",
+            "top",
+            "of",
+            "the",
+            "green",
+            "cube"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 7,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Take",
+            "the",
+            "light",
+            "blue",
+            "prism",
+            "that",
+            "is",
+            "on",
+            "top",
+            "of",
+            "the",
+            "dark",
+            "blue",
+            "block",
+            "and",
+            "move",
+            "it",
+            "on",
+            "top",
+            "of",
+            "the",
+            "white",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 15,
+                "end": 16,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 11,
+                "end": 13,
+                "type": "Color"
+            },
+            {
+                "start": 21,
+                "end": 22,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 7,
+                "end": 10,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 17,
+                "end": 20,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 5,
+                "tail": 6
+            },
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 7
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Move",
+            "the",
+            "red",
+            "prism",
+            "on",
+            "top",
+            "of",
+            "the",
+            "blue",
+            "cube",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 7,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "blue",
+            "pyramid",
+            "above",
+            "the",
+            "red",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "red",
+            "cube",
+            "placed",
+            "on",
+            "top",
+            "of",
+            "the",
+            "gray",
+            "cube",
+            "and",
+            "move",
+            "it",
+            "on",
+            "top",
+            "of",
+            "the",
+            "yellow",
+            "cube"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "Color"
+            },
+            {
+                "start": 19,
+                "end": 20,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 15,
+                "end": 18,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 5,
+                "tail": 6
+            },
+            {
+                "type": "Transition",
+                "head": 1,
+                "tail": 7
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "red",
+            "block",
+            "above",
+            "the",
+            "blue",
+            "block",
+            "closest",
+            "to",
+            "the",
+            "red",
+            "and",
+            "grey",
+            "parallelipiped",
+            "and",
+            "put",
+            "it",
+            "above",
+            "the",
+            "blue",
+            "block",
+            "closest",
+            "to",
+            "the",
+            "corner"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 16,
+                "end": 17,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Color"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "Color"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Color"
+            },
+            {
+                "start": 20,
+                "end": 21,
+                "type": "Color"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 18,
+                "end": 19,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 7,
+                "tail": 8
+            },
+            {
+                "type": "Transition",
+                "head": 1,
+                "tail": 9
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "the",
+            "red",
+            "block",
+            "which",
+            "is",
+            "on",
+            "top",
+            "of",
+            "the",
+            "white",
+            "block",
+            "and",
+            "move",
+            "it",
+            "on",
+            "top",
+            "of",
+            "the",
+            "green",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "Color"
+            },
+            {
+                "start": 19,
+                "end": 20,
+                "type": "Color"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 15,
+                "end": 18,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 5,
+                "tail": 6
+            },
+            {
+                "type": "Transition",
+                "head": 1,
+                "tail": 7
+            }
+        ]
+    }
+]
