@@ -1,0 +1,4673 @@
+[
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "ht",
+            "blue",
+            "block",
+            "to",
+            "the",
+            "bottom",
+            "left",
+            "of",
+            "the",
+            "rightmost",
+            "yellow",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 12,
+                "end": 13,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "pick",
+            "up",
+            "the",
+            "only",
+            "yellow",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "upper",
+            "most",
+            "green",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "orange",
+            "block",
+            "that",
+            "is",
+            "closest",
+            "to",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "blue",
+            "block",
+            "second",
+            "from",
+            "your",
+            "left",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "next",
+            "to",
+            "the",
+            "two",
+            "orange",
+            "blocks",
+            "that",
+            "are",
+            "together",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 5,
+                "end": 7,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "PIck",
+            "up",
+            "the",
+            "orange",
+            "block",
+            "closest",
+            "to",
+            "me"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "in",
+            "the",
+            "center",
+            "and",
+            "next",
+            "to",
+            "a",
+            "yellow",
+            "block",
+            "and",
+            "to",
+            "your",
+            "right",
+            "of",
+            "the",
+            "blue",
+            "block",
+            "that",
+            "is",
+            "farthest",
+            "to",
+            "your",
+            "left",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 11,
+                "end": 13,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 7,
+                "end": 10,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 14,
+                "end": 15,
+                "type": "Color"
+            },
+            {
+                "start": 22,
+                "end": 23,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            },
+            {
+                "head": 2,
+                "tail": 4,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Grab",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "closest",
+            "to",
+            "me",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "furthest",
+            "away",
+            "from",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "grab",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "in",
+            "the",
+            "middle",
+            "of",
+            "the",
+            "blocks",
+            "and",
+            "close",
+            "to",
+            "the",
+            "bottom",
+            "of",
+            "the",
+            "table",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 10,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "blue",
+            "block",
+            "on",
+            "your",
+            "far",
+            "left",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "blue",
+            "block",
+            "in",
+            "the",
+            "exact",
+            "center",
+            "of",
+            "the",
+            "table",
+            "closest",
+            "to",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 5,
+                "end": 10,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "yellow",
+            "block",
+            "touching",
+            "the",
+            "closest",
+            "green",
+            "block",
+            "to",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "yellow",
+            "block",
+            "furthest",
+            "from",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "in",
+            "the",
+            "center",
+            "of",
+            "the",
+            "table",
+            "that",
+            "is",
+            "touching",
+            "the",
+            "orange",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 5,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 15,
+                "end": 16,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Please",
+            "pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "located",
+            "center",
+            "most",
+            "in",
+            "the",
+            "table",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "yellow",
+            "block",
+            "in",
+            "between",
+            "those",
+            "2",
+            "green",
+            "blocks",
+            ",",
+            "and",
+            "that",
+            "blue",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Color"
+            },
+            {
+                "start": 14,
+                "end": 15,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 5,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 4,
+                "tail": 5,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Please",
+            "pick",
+            "up",
+            "the",
+            "only",
+            "yellow",
+            "block",
+            "on",
+            "the",
+            "table",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Color"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Trajector"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Please",
+            "pick",
+            "up",
+            "the",
+            "orange",
+            "block",
+            "nearest",
+            "to",
+            "you",
+            "on",
+            "your",
+            "right",
+            "hand",
+            "side",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "blue",
+            "block",
+            "that",
+            "is",
+            "sandwiched",
+            "between",
+            "another",
+            "blue",
+            "block",
+            "and",
+            "that",
+            "green",
+            "one",
+            "that",
+            "is",
+            "closest",
+            "to",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "Color"
+            },
+            {
+                "start": 14,
+                "end": 15,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "blue",
+            "cube",
+            "closest",
+            "to",
+            "me",
+            "on",
+            "your",
+            "right",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "blue",
+            "block",
+            "on",
+            "the",
+            "left",
+            "side",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "in",
+            "between",
+            "two",
+            "sets",
+            "of",
+            "green",
+            "blocks",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 12,
+                "end": 13,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "closest",
+            "to",
+            "you",
+            "(",
+            "below",
+            "the",
+            "yellow",
+            "and",
+            "blue",
+            "blocks",
+            "from",
+            "your",
+            "view",
+            ")",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Color"
+            },
+            {
+                "start": 15,
+                "end": 16,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "second",
+            "block",
+            "from",
+            "the",
+            "left",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "the",
+            "yellow",
+            "block",
+            "farthest",
+            "away",
+            "from",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "pick",
+            "the",
+            "orange",
+            "block",
+            "closest",
+            "to",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "left",
+            "green",
+            "block",
+            "out",
+            "of",
+            "that",
+            "touching",
+            "pair",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "block",
+            "furthest",
+            "from",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "yellow",
+            "block",
+            "next",
+            "to",
+            "the",
+            "rightmost",
+            "blue",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 5,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "has",
+            "a",
+            "yellow",
+            "block",
+            "directly",
+            "behind",
+            "it",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "orange",
+            "block",
+            "one",
+            "that",
+            "is",
+            "nearest",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "blue",
+            "block",
+            "that",
+            "is",
+            "in",
+            "between",
+            "a",
+            "yellow",
+            "and",
+            "an",
+            "orange",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "Color"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "orange",
+            "block",
+            "that",
+            "is",
+            "the",
+            "closest",
+            "to",
+            "you"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "yellow",
+            "block",
+            "that",
+            "is",
+            "towards",
+            "your",
+            "left",
+            "and",
+            "is",
+            "next",
+            "to",
+            "the",
+            "blue",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 12,
+                "end": 14,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 15,
+                "end": 16,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "yellow",
+            "block",
+            "that",
+            "is",
+            "on",
+            "your",
+            "far",
+            "right",
+            ",",
+            "the",
+            "2nd",
+            "down",
+            "in",
+            "a",
+            "line",
+            "of",
+            "4",
+            "yellow",
+            "blocks",
+            ",",
+            "and",
+            "directly",
+            "next",
+            "to",
+            "a",
+            "blue",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 20,
+                "end": 21,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "yellow",
+            "block",
+            "next",
+            "to",
+            "the",
+            "green",
+            "block",
+            "farthest",
+            "to",
+            "your",
+            "left",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 5,
+                "end": 7,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "orange",
+            "block",
+            "closest",
+            "to",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "closest",
+            "to",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "closest",
+            "to",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "blue",
+            "block",
+            "that",
+            "is",
+            "above",
+            "a",
+            "green",
+            "block",
+            "and",
+            "below",
+            "another",
+            "blue",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Color"
+            },
+            {
+                "start": 12,
+                "end": 13,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 14,
+                "end": 15,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 3
+            },
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 5
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "the",
+            "orange",
+            "block",
+            "that",
+            "is",
+            "closest",
+            "to",
+            "you"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "below",
+            "another",
+            "green",
+            "block",
+            "and",
+            "right",
+            "next",
+            "to",
+            "a",
+            "blue",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Color"
+            },
+            {
+                "start": 13,
+                "end": 15,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 16,
+                "end": 17,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 3
+            },
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 5
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "the",
+            "blue",
+            "block",
+            "that",
+            "is",
+            "farthest",
+            "from",
+            "you",
+            "and",
+            "right",
+            "above",
+            "the",
+            "orange",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Color"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "the",
+            "furthest",
+            "away",
+            "from",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "the",
+            "furthest",
+            "away",
+            "from",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "blue",
+            "block",
+            "that",
+            "is",
+            "next",
+            "to",
+            "another",
+            "blue",
+            "block",
+            "and",
+            "green",
+            "block",
+            ",",
+            "and",
+            "above",
+            "an",
+            "orange",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 7,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "Color"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Color"
+            },
+            {
+                "start": 17,
+                "end": 18,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 19,
+                "end": 20,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 3
+            },
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 6
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "first",
+            "green",
+            "block",
+            "that",
+            "you",
+            "see",
+            "when",
+            "you",
+            "look",
+            "directly",
+            "forward",
+            ",",
+            "this",
+            "block",
+            "is",
+            "also",
+            "the",
+            "closest",
+            "green",
+            "block",
+            "near",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            },
+            {
+                "start": 21,
+                "end": 22,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "which",
+            "is",
+            "on",
+            "your",
+            "right",
+            "side",
+            "and",
+            "closest",
+            "to",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "orange",
+            "block",
+            "which",
+            "is",
+            "closest",
+            "to",
+            "you",
+            ",",
+            "between",
+            "the",
+            "blue",
+            "block",
+            "and",
+            "yellow",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Color"
+            },
+            {
+                "start": 16,
+                "end": 17,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "grab",
+            "the",
+            "blue",
+            "block",
+            "on",
+            "your",
+            "far",
+            "left",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "grab",
+            "the",
+            "yellow",
+            "block",
+            "next",
+            "to",
+            "the",
+            "blue",
+            "block",
+            "on",
+            "your",
+            "right",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "Color"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 6,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "grab",
+            "the",
+            "left",
+            "-",
+            "most",
+            "orange",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Grab",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "closest",
+            "to",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "I",
+            "would",
+            "tell",
+            "the",
+            "robot",
+            "to",
+            "pick",
+            "up",
+            "the",
+            "yellow",
+            "block",
+            "directly",
+            "in",
+            "front",
+            "of",
+            "him",
+            ".",
+            "The",
+            "one",
+            "to",
+            "the",
+            "right",
+            "of",
+            "the",
+            "green",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Action"
+            },
+            {
+                "start": 9,
+                "end": 19,
+                "type": "Color"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "Trajector"
+            },
+            {
+                "start": 12,
+                "end": 15,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Grab",
+            "the",
+            "blue",
+            "box",
+            "closest",
+            "to",
+            "you",
+            "on",
+            "the",
+            "table",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "in",
+            "the",
+            "center",
+            "of",
+            "the",
+            "group",
+            "of",
+            "five",
+            "green",
+            "blocks",
+            "on",
+            "your",
+            "left",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 7,
+                "end": 11,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 15,
+                "end": 16,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "farthest",
+            "away",
+            "from",
+            "you",
+            "and",
+            "on",
+            "the",
+            "left",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "first",
+            "blue",
+            "block",
+            "that",
+            "is",
+            "in",
+            "front",
+            "of",
+            "you",
+            "and",
+            "slightly",
+            "to",
+            "your",
+            "right",
+            "side",
+            "between",
+            "the",
+            "green",
+            "and",
+            "yellow",
+            "blocks",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Trajector"
+            },
+            {
+                "start": 8,
+                "end": 11,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 20,
+                "end": 21,
+                "type": "Color"
+            },
+            {
+                "start": 22,
+                "end": 23,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "first",
+            "blue",
+            "block",
+            "directly",
+            "in",
+            "front",
+            "of",
+            "the",
+            "first",
+            "green",
+            "block",
+            "closest",
+            "and",
+            "centered",
+            "to",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Trajector"
+            },
+            {
+                "start": 7,
+                "end": 10,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 12,
+                "end": 13,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "far",
+            "blue",
+            "block",
+            "that",
+            "is",
+            "just",
+            "pass",
+            "the",
+            "orange",
+            "block",
+            "and",
+            "to",
+            "the",
+            "left",
+            "of",
+            "the",
+            "farthest",
+            "forward",
+            "blue",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "Color"
+            },
+            {
+                "start": 21,
+                "end": 22,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "please",
+            "pick",
+            "up",
+            "the",
+            "orange",
+            "block",
+            "on",
+            "top",
+            "of",
+            "the",
+            "2",
+            "bottom",
+            "ones"
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 9,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "please",
+            "pick",
+            "up",
+            "the",
+            "orange",
+            "block",
+            "underneath",
+            "the",
+            "orange",
+            "but",
+            "almost",
+            "touching",
+            "the",
+            "yellow"
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "directly",
+            "below",
+            "two",
+            "orange",
+            "blocks",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "closest",
+            "to",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "blue",
+            "block",
+            "that",
+            "is",
+            "furthest",
+            "from",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "I",
+            "would",
+            "tell",
+            "the",
+            "robot",
+            "to",
+            "pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "grouped",
+            "with",
+            "other",
+            "green",
+            "blocks",
+            "but",
+            "is",
+            "off",
+            "to",
+            "the",
+            "right",
+            "and",
+            "just",
+            "above",
+            "two",
+            "green",
+            "blocks"
+        ],
+        "entities": [
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Action"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Color"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "Trajector"
+            },
+            {
+                "start": 13,
+                "end": 15,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 26,
+                "end": 27,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 3
+            },
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 4
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "face",
+            "to",
+            "face",
+            "with",
+            "another",
+            "green",
+            "block",
+            "to",
+            "its",
+            "right",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 12,
+                "end": 13,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "directly",
+            "to",
+            "the",
+            "left",
+            "of",
+            "the",
+            "blue",
+            "block",
+            "and",
+            "below",
+            "another",
+            "green",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 16,
+                "end": 17,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 18,
+                "end": 19,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "I",
+            "would",
+            "tell",
+            "the",
+            "robot",
+            "to",
+            "pick",
+            "up",
+            "the",
+            "blue",
+            "block",
+            "on",
+            "the",
+            "far",
+            "left",
+            ",",
+            "just",
+            "above",
+            "the",
+            "yellow",
+            "block",
+            "and",
+            "closer",
+            "to",
+            "me"
+        ],
+        "entities": [
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Action"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Color"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "Trajector"
+            },
+            {
+                "start": 17,
+                "end": 18,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 10,
+                "end": 20,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "first",
+            "green",
+            "block",
+            "very",
+            "near",
+            "to",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "near",
+            "to",
+            "the",
+            "blue",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "up",
+            "the",
+            "blue",
+            "cube",
+            "furthest",
+            "to",
+            "your",
+            "right"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "pick",
+            "up",
+            "the",
+            "green",
+            "cube",
+            "furthest",
+            "from",
+            "you"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "pick",
+            "up",
+            "the",
+            "closest",
+            "yellow",
+            "cube",
+            "to",
+            "you",
+            "that",
+            "is",
+            "touching",
+            "a",
+            "green",
+            "cube"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            },
+            {
+                "start": 12,
+                "end": 13,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "has",
+            "a",
+            "yellow",
+            "block",
+            "below",
+            "it",
+            "and",
+            "a",
+            "brown",
+            "block",
+            "above",
+            "it",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "pick",
+            "up",
+            "the",
+            "yellow",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "right",
+            "next",
+            "to",
+            "a",
+            "blue",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 8,
+                "end": 10,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "blue",
+            "block",
+            "furthest",
+            "to",
+            "your",
+            "right",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "furthest",
+            "to",
+            "your",
+            "left",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "block",
+            "that",
+            "is",
+            "closest",
+            "to",
+            "you",
+            "-",
+            "it",
+            "also",
+            "happens",
+            "to",
+            "be",
+            "green",
+            ",",
+            "to",
+            "confirm",
+            "we",
+            "are",
+            "looking",
+            "at",
+            "the",
+            "same",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 15,
+                "end": 16,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 2,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "the",
+            "green",
+            "block",
+            "that",
+            "'s",
+            "on",
+            "the",
+            "right",
+            "side",
+            "of",
+            "the",
+            "screen",
+            "and",
+            "is",
+            "directly",
+            "between",
+            "two",
+            "other",
+            "green",
+            "blocks",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 19,
+                "end": 20,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 16,
+                "end": 17,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Please",
+            "pick",
+            "up",
+            "the",
+            "blue",
+            "block",
+            "that",
+            "is",
+            "directly",
+            "behind",
+            ",",
+            "not",
+            "adjacent",
+            "to",
+            ",",
+            "the",
+            "orange",
+            "block",
+            "in",
+            "the",
+            "center",
+            "-",
+            "left",
+            "of",
+            "the",
+            "table",
+            ".",
+            " ",
+            "It",
+            "is",
+            "the",
+            "blue",
+            "block",
+            "that",
+            "it",
+            "turned",
+            "so",
+            "that",
+            "it",
+            "mimics",
+            "the",
+            "shape",
+            "of",
+            "a",
+            "diamond",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Trajector"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 16,
+                "end": 17,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "orange",
+            "block",
+            "furthest",
+            "from",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "There",
+            "is",
+            "a",
+            "blue",
+            "block",
+            "on",
+            "the",
+            "table",
+            "that",
+            "is",
+            "positioned",
+            "to",
+            "your",
+            "farthest",
+            "right",
+            ".",
+            "Please",
+            "pick",
+            "up",
+            "the",
+            "yellow",
+            "block",
+            "directly",
+            "behind",
+            ",",
+            "and",
+            "closest",
+            "to",
+            ",",
+            "that",
+            "blue",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 17,
+                "end": 18,
+                "type": "Action"
+            },
+            {
+                "start": 20,
+                "end": 21,
+                "type": "Color"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 23,
+                "end": 24,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 21,
+                "end": 22,
+                "type": "Trajector"
+            },
+            {
+                "start": 26,
+                "end": 28,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 30,
+                "end": 31,
+                "type": "Color"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 4
+            },
+            {
+                "type": "Spatial",
+                "head": 6,
+                "tail": 5
+            },
+            {
+                "type": "Spatial",
+                "head": 6,
+                "tail": 7
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "blue",
+            "block",
+            "furthest",
+            "from",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "closest",
+            "to",
+            "you"
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "blue",
+            "block",
+            "that",
+            "is",
+            "third",
+            "from",
+            "your",
+            "left",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "furthest",
+            "from",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "nearest",
+            "to",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "only",
+            "green",
+            "block",
+            "on",
+            "your",
+            "left",
+            "side",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "orange",
+            "block",
+            "furthest",
+            "to",
+            "your",
+            "left",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "blue",
+            "on",
+            "your",
+            "left",
+            "side",
+            "of",
+            "the",
+            "table",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "before",
+            "the",
+            "two",
+            "orange",
+            "blocks",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Please",
+            "pick",
+            "up",
+            "the",
+            "orange",
+            "block",
+            "that",
+            "is",
+            "nearest",
+            "to",
+            "me",
+            ".",
+            "It",
+            "is",
+            "the",
+            "orange",
+            "block",
+            "directly",
+            "adjacent",
+            "to",
+            ",",
+            "and",
+            "slightly",
+            "to",
+            "the",
+            "left",
+            "of",
+            ",",
+            "the",
+            "to",
+            "the",
+            "yellow",
+            "block",
+            "nearest",
+            "me",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            },
+            {
+                "start": 15,
+                "end": 16,
+                "type": "Color"
+            },
+            {
+                "start": 31,
+                "end": 21,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "yellow",
+            "block",
+            "that",
+            "is",
+            "in",
+            "between",
+            "the",
+            "right",
+            "side",
+            "of",
+            "you",
+            "and",
+            "me"
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "directly",
+            "in",
+            "the",
+            "center",
+            "of",
+            "all",
+            "the",
+            "blocks",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 8,
+                "end": 12,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "third",
+            "blue",
+            "block",
+            "from",
+            "your",
+            "left"
+        ],
+        "entities": [
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "orange",
+            "block",
+            "all",
+            "the",
+            "way",
+            "in",
+            "the",
+            "back",
+            "on",
+            "your",
+            "left"
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "blue",
+            "block",
+            "closest",
+            "to",
+            "you"
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "yellow",
+            "block",
+            "that",
+            "is",
+            "right",
+            "beside",
+            "the",
+            "blue",
+            "block",
+            "on",
+            "the",
+            "right"
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "yellow",
+            "block"
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "the",
+            "green",
+            "block",
+            "which",
+            "is",
+            "the",
+            "farthest",
+            "to",
+            "my",
+            "right",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "pick",
+            "up",
+            "the",
+            "first",
+            "orange",
+            "block",
+            "on",
+            "your",
+            "right"
+        ],
+        "entities": [
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "pick",
+            "up",
+            "the",
+            "first",
+            "blue",
+            "block",
+            "on",
+            "your",
+            "left"
+        ],
+        "entities": [
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "pick",
+            "up",
+            "the",
+            "blue",
+            "block",
+            "right",
+            "in",
+            "front",
+            "of",
+            "the",
+            "first",
+            "green",
+            "block",
+            "on",
+            "your",
+            "side",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 9,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "pick",
+            "up",
+            "the",
+            "yellow",
+            "block",
+            "closest",
+            "to",
+            "me",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "the",
+            "yellow",
+            "block",
+            "furthest",
+            "from",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "orange",
+            "block",
+            "closest",
+            "to",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "purple",
+            "block",
+            "furthest",
+            "to",
+            "the",
+            "right",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "directly",
+            "in",
+            "front",
+            "of",
+            "the",
+            "orange",
+            "block",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 6,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            }
+        ],
+        "relations": [
+            {
+                "head": 4,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "Pick",
+            "up",
+            "the",
+            "green",
+            "block",
+            "that",
+            "is",
+            "closest",
+            "to",
+            "you",
+            ",",
+            "the",
+            "one",
+            "right",
+            "in",
+            "front",
+            "of",
+            "you",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            },
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 14,
+                "end": 17,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "From",
+            "your",
+            "perspective",
+            "i",
+            "would",
+            "pick",
+            "the",
+            "middle",
+            "cube",
+            "in",
+            "the",
+            "cluster",
+            "of",
+            "green",
+            "cubes",
+            "on",
+            "your",
+            "left",
+            "side",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "From",
+            "your",
+            "perspective",
+            "i",
+            "would",
+            "pick",
+            "the",
+            "orange",
+            "one",
+            "that",
+            "is",
+            "far",
+            "up",
+            "top",
+            "and",
+            "far",
+            "right",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "From",
+            "your",
+            "perspective",
+            "i",
+            "would",
+            "pick",
+            "the",
+            "cube",
+            "in",
+            "the",
+            "middle",
+            "that",
+            "is",
+            "green",
+            "."
+        ],
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    }
+]
