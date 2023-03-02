@@ -10,7 +10,7 @@
             {
                 "start": 0,
                 "end": 1,
-                "type": "Action"
+                "type": "Action" 
             }
         ],
         "relations": []
@@ -671,7 +671,7 @@
             {
                 "type": "Transition",
                 "head": 0,
-                "tail": 2
+                "tail": 1
             }
         ]
     },
