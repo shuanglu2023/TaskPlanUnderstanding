@@ -1744,11 +1744,6 @@
                 "type": "Action"
             },
             {
-                "start": 1,
-                "end": 2,
-                "type": "GoalIndicator"
-            },
-            {
                 "start": 3,
                 "end": 4,
                 "type": "Trajector"
@@ -1761,14 +1756,9 @@
         ],
         "relations": [
             {
-                "type": "Transition",
-                "head": 0,
-                "tail": 1
-            },
-            {
                 "type": "Spatial",
-                "head": 2,
-                "tail": 3
+                "head": 1,
+                "tail": 2
             }
         ]
     },
@@ -2513,11 +2503,6 @@
                 "type": "Action"
             },
             {
-                "start": 8,
-                "end": 9,
-                "type": "GoalIndicator"
-            },
-            {
                 "start": 10,
                 "end": 11,
                 "type": "Trajector"
@@ -2531,13 +2516,8 @@
         "relations": [
             {
                 "type": "Spatial",
-                "head": 2,
-                "tail": 3
-            },
-            {
-                "type": "Transition",
-                "head": 0,
-                "tail": 1
+                "head": 1,
+                "tail": 2
             }
         ]
     },
@@ -3760,11 +3740,6 @@
                 "type": "Action"
             },
             {
-                "start": 1,
-                "end": 2,
-                "type": "GoalIndicator"
-            },
-            {
                 "start": 2,
                 "end": 3,
                 "type": "Trajector"
@@ -3778,13 +3753,8 @@
         "relations": [
             {
                 "type": "Spatial",
-                "head": 2,
-                "tail": 3
-            },
-            {
-                "type": "Transition",
-                "head": 0,
-                "tail": 1
+                "head": 1,
+                "tail": 2
             }
         ]
     },
@@ -5941,11 +5911,6 @@
                 "type": "Action"
             },
             {
-                "start": 1,
-                "end": 2,
-                "type": "GoalIndicator"
-            },
-            {
                 "start": 3,
                 "end": 4,
                 "type": "Trajector"
@@ -5956,16 +5921,11 @@
                 "type": "SpatialIndicator"
             }
         ],
-        "relations": [
-            {
-                "type": "Transition",
-                "head": 0,
-                "tail": 1
-            },
+        "relations": [ 
             {
                 "type": "Spatial",
-                "head": 2,
-                "tail": 3
+                "head": 1,
+                "tail": 2
             }
         ]
     },
