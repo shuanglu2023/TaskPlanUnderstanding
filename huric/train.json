@@ -1,0 +1,6575 @@
+[
+    {
+        "tokens": [
+            "bring",
+            "me",
+            "the",
+            "bottle"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "book",
+            "on",
+            "the",
+            "chair",
+            "near",
+            "the",
+            "dining",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 3
+            },
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "bottle",
+            "on",
+            "the",
+            "table",
+            "in",
+            "the",
+            "studio"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            },
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "mug",
+            "to",
+            "the",
+            "bedroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "can",
+            "in",
+            "the",
+            "bin"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "plate",
+            "on",
+            "the",
+            "counter"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "cover",
+            "on",
+            "the",
+            "bed",
+            "in",
+            "the",
+            "bedroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 1,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "carry",
+            "the",
+            "paper",
+            "near",
+            "the",
+            "counter"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "fruit",
+            "onto",
+            "the",
+            "dining",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "paper",
+            "to",
+            "the",
+            "bathroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "can",
+            "you",
+            "please",
+            "bring",
+            "my",
+            "phone",
+            "to",
+            "the",
+            "bathroom"
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Action"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "please",
+            "take",
+            "the",
+            "mug",
+            "to",
+            "the",
+            "bedroom"
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "grab",
+            "the",
+            "key",
+            "lanyard"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "go",
+            "to",
+            "the",
+            "kitchen",
+            "and",
+            "take",
+            "the",
+            "glass",
+            "near",
+            "the",
+            "book",
+            "on",
+            "the",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 6,
+                "end": 8,
+                "type": "Trajector"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "milk",
+            "in",
+            "the",
+            "fridge"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "could",
+            "you",
+            "please",
+            "bring",
+            "us",
+            "some",
+            "water"
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "remote",
+            "control",
+            "and",
+            "turn",
+            "on",
+            "the",
+            "tv"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "robot",
+            "release",
+            "the",
+            "pillow",
+            "on",
+            "the",
+            "bed"
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "book",
+            "near",
+            "the",
+            "glass",
+            "on",
+            "the",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "phone",
+            "to",
+            "the",
+            "bathroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "remote",
+            "controller",
+            "to",
+            "the",
+            "left",
+            "of",
+            "the",
+            "television"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 2
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "robot",
+            "can",
+            "you",
+            "bring",
+            "the",
+            "cornflakes",
+            "box",
+            "from",
+            "the",
+            "kitchen",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Action"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Trajector"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "go",
+            "to",
+            "the",
+            "bedroom",
+            "and",
+            "grasp",
+            "the",
+            "mobile",
+            "near",
+            "the",
+            "pillow",
+            "on",
+            "the",
+            "bed"
+        ],
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "Trajector"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "please",
+            "take",
+            "the",
+            "book",
+            "to",
+            "the",
+            "bathroom"
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "carry",
+            "this",
+            "mug",
+            "to",
+            "the",
+            "bedstand"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "bottle",
+            "to",
+            "the",
+            "bedroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "get",
+            "the",
+            "blue",
+            "slippers",
+            "from",
+            "the",
+            "bathroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "go",
+            "to",
+            "the",
+            "corridor",
+            "and",
+            "take",
+            "the",
+            "ruler",
+            "near",
+            "the",
+            "box",
+            "on",
+            "the",
+            "shelf"
+        ],
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "Trajector"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "coffee",
+            "mugs",
+            "from",
+            "the",
+            "kitchen",
+            "cabinet",
+            "and",
+            "put",
+            "them",
+            "on",
+            "the",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Action"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            },
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "books",
+            "to",
+            "the",
+            "living",
+            "room",
+            "on",
+            "the",
+            "sofa"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "robot",
+            "please",
+            "take",
+            "the",
+            "mug",
+            "to",
+            "the",
+            "sink"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "me",
+            "the",
+            "remote",
+            "control"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "please",
+            "take",
+            "the",
+            "television",
+            "to",
+            "the",
+            "bedroom",
+            "on",
+            "the",
+            "left"
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "this",
+            "pan",
+            "on",
+            "the",
+            "stove"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "box",
+            "on",
+            "the",
+            "table",
+            "on",
+            "the",
+            "couch"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 1,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "can",
+            "you",
+            "bring",
+            "the",
+            "mayo",
+            "over",
+            "here"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "grab",
+            "the",
+            "cigarettes",
+            "next",
+            "to",
+            "the",
+            "phone"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 5,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "can",
+            "you",
+            "bring",
+            "the",
+            "glass",
+            "to",
+            "the",
+            "sink"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "can",
+            "you",
+            "put",
+            "the",
+            "detergent",
+            "in",
+            "the",
+            "washing",
+            "machine"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "mug",
+            "to",
+            "bedroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "could",
+            "you",
+            "go",
+            "to",
+            "the",
+            "bedroom",
+            "and",
+            "take",
+            "the",
+            "postcard",
+            "on",
+            "the",
+            "nightstand",
+            "please"
+        ],
+        "entities": [
+            {
+                "start": 7,
+                "end": 8,
+                "type": "Action"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Trajector"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "black",
+            "paperback",
+            "from",
+            "the",
+            "bookshelf"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "get",
+            "my",
+            "coat",
+            "from",
+            "the",
+            "closet"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "move",
+            "to",
+            "the",
+            "kitchen",
+            "and",
+            "grasp",
+            "the",
+            "spoon",
+            "near",
+            "the",
+            "knife",
+            "on",
+            "the",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "Trajector"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "bottle",
+            "near",
+            "the",
+            "fridge"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "shampoo",
+            "to",
+            "the",
+            "shower"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "move",
+            "to",
+            "the",
+            "dining",
+            "room",
+            "and",
+            "take",
+            "the",
+            "fork",
+            "near",
+            "the",
+            "plate",
+            "on",
+            "the",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Action"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Trajector"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 12,
+                "end": 13,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "go",
+            "to",
+            "the",
+            "bedroom",
+            "and",
+            "release",
+            "the",
+            "pillow",
+            "on",
+            "the",
+            "bed"
+        ],
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "Trajector"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "magazine",
+            "that",
+            "is",
+            "in",
+            "the",
+            "bathroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "me",
+            "the",
+            "cereals",
+            "and",
+            "the",
+            "milk"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "can",
+            "you",
+            "put",
+            "the",
+            "soap",
+            "in",
+            "the",
+            "washing",
+            "machine"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "me",
+            "my",
+            "telephone",
+            "from",
+            "the",
+            "couch"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 1,
+                "end": 2,
+                "type": "GoalIndicator"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            },
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "get",
+            "me",
+            "my",
+            "jacket"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "i",
+            "would",
+            "like",
+            "some",
+            "beer",
+            "can",
+            "you",
+            "grab",
+            "one",
+            "from",
+            "the",
+            "fridge",
+            "and",
+            "bring",
+            "it",
+            "here"
+        ],
+        "entities": [
+            {
+                "start": 7,
+                "end": 8,
+                "type": "Action"
+            },
+            {
+                "start": 13,
+                "end": 14,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "carry",
+            "the",
+            "book",
+            "to",
+            "my",
+            "nightstand"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "can",
+            "you",
+            "place",
+            "the",
+            "mug",
+            "to",
+            "the",
+            "head",
+            "of",
+            "the",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "my",
+            "mobile",
+            "phone",
+            "on",
+            "the",
+            "kitchen",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "bottle",
+            "to",
+            "the",
+            "couch"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "could",
+            "you",
+            "go",
+            "to",
+            "the",
+            "kitchen",
+            "and",
+            "take",
+            "the",
+            "plate",
+            "please"
+        ],
+        "entities": [
+            {
+                "start": 7,
+                "end": 8,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "bring",
+            "me",
+            "a",
+            "fork",
+            "from",
+            "the",
+            "press"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "my",
+            "jacket",
+            "on",
+            "the",
+            "bed"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "mobile",
+            "into",
+            "the",
+            "bedroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "my",
+            "cellphone",
+            "to",
+            "the",
+            "bedroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "box",
+            "from",
+            "the",
+            "table",
+            "to",
+            "the",
+            "kitchen",
+            "please"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 1,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "them",
+            "to",
+            "the",
+            "side",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "three",
+            "coffee",
+            "cups",
+            "and",
+            "bring",
+            "them",
+            "to",
+            "me"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "phone",
+            "on",
+            "the",
+            "couch"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "case",
+            "at",
+            "the",
+            "left",
+            "of",
+            "the",
+            "box"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "please",
+            "robot",
+            "take",
+            "the",
+            "box",
+            "on",
+            "the",
+            "table",
+            "on",
+            "the",
+            "couch"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "phone",
+            "to",
+            "the",
+            "bedroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "grab",
+            "this",
+            "mug"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "take",
+            "both",
+            "books",
+            "to",
+            "the",
+            "living",
+            "room",
+            "on",
+            "the",
+            "sofa"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "catch",
+            "the",
+            "phone",
+            "at",
+            "the",
+            "right",
+            "of",
+            "the",
+            "desk"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "bring",
+            "me",
+            "the",
+            "pillow",
+            "from",
+            "the",
+            "bed"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "coffee",
+            "mug",
+            "into",
+            "the",
+            "dishwasher"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "carry",
+            "the",
+            "mug",
+            "to",
+            "the",
+            "living",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "can",
+            "you",
+            "go",
+            "to",
+            "the",
+            "kitchen",
+            "and",
+            "bring",
+            "me",
+            "some",
+            "bread",
+            "from",
+            "the",
+            "pantry"
+        ],
+        "entities": [
+            {
+                "start": 7,
+                "end": 8,
+                "type": "Action"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "GoalIndicator"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "Trajector"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 3
+            },
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "carry",
+            "the",
+            "laptop",
+            "to",
+            "daniele"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "knife",
+            "with",
+            "the",
+            "black",
+            "handle"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "could",
+            "you",
+            "put",
+            "my",
+            "clothes",
+            "on",
+            "the",
+            "washing",
+            "line",
+            "please"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "would",
+            "you",
+            "please",
+            "bring",
+            "me",
+            "my",
+            "phone",
+            "from",
+            "the",
+            "bed",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Action"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Trajector"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "please",
+            "pick",
+            "up",
+            "the",
+            "phone"
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "pillow",
+            "to",
+            "the",
+            "couch",
+            "of",
+            "the",
+            "bedroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            },
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "phone",
+            "near",
+            "the",
+            "tv",
+            "on",
+            "the",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "corn",
+            "can",
+            "on",
+            "the",
+            "kitchen",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "grab",
+            "the",
+            "bottle"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "kettle",
+            "on",
+            "the",
+            "stove"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "bottle",
+            "on",
+            "the",
+            "table",
+            "in",
+            "the",
+            "dining",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            },
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "me",
+            "the",
+            "towel",
+            "from",
+            "the",
+            "bathroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "phone",
+            "to",
+            "the",
+            "living",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "please",
+            "put",
+            "the",
+            "book",
+            "in",
+            "the",
+            "dining",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "phone",
+            "on",
+            "the",
+            "left",
+            "of",
+            "the",
+            "pc"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "forks",
+            "from",
+            "the",
+            "dishwasher"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "me",
+            "the",
+            "glasses"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "please",
+            "pick",
+            "my",
+            "mobile",
+            "phone",
+            "and",
+            "put",
+            "it",
+            "on",
+            "the",
+            "chair",
+            "near",
+            "the",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Action"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "GoalIndicator"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "Trajector"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 3,
+                "tail": 4
+            },
+            {
+                "type": "Transition",
+                "head": 1,
+                "tail": 2
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "mug",
+            "in",
+            "the",
+            "living",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "bottles",
+            "and",
+            "bring",
+            "them",
+            "to",
+            "the",
+            "side",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Action"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 1,
+                "tail": 2
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "book",
+            "on",
+            "the",
+            "table",
+            "in",
+            "the",
+            "kitchen"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "pillow",
+            "to",
+            "the",
+            "couch",
+            "of",
+            "the",
+            "bedroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "please",
+            "robot",
+            "put",
+            "the",
+            "pan",
+            "on",
+            "the",
+            "stove",
+            "and",
+            "control",
+            "it"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "a",
+            "coffee",
+            "mug"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "phone",
+            "in",
+            "the",
+            "kitchen",
+            "stove"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "mobile",
+            "phone",
+            "in",
+            "the",
+            "nightstand"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "mug",
+            "on",
+            "the",
+            "table",
+            "in",
+            "the",
+            "living",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            },
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "robot",
+            "can",
+            "you",
+            "pass",
+            "me",
+            "the",
+            "television",
+            "remote"
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "go",
+            "to",
+            "the",
+            "kitchen",
+            "and",
+            "take",
+            "the",
+            "plate",
+            "please"
+        ],
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "bring",
+            "me",
+            "a",
+            "chair",
+            "from",
+            "the",
+            "studio"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "carry",
+            "the",
+            "mug",
+            "to",
+            "the",
+            "dining",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "robot",
+            "can",
+            "you",
+            "bring",
+            "me",
+            "the",
+            "phone"
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "please",
+            "take",
+            "some",
+            "pasta",
+            "from",
+            "the",
+            "kitchen",
+            "cabinet"
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "grab",
+            "the",
+            "book",
+            "with",
+            "the",
+            "blue",
+            "cover"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "book",
+            "to",
+            "the",
+            "bedroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "carry",
+            "the",
+            "laptop",
+            "to",
+            "daniele"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "go",
+            "to",
+            "the",
+            "living",
+            "room",
+            "and",
+            "grasp",
+            "the",
+            "guitar",
+            "near",
+            "the",
+            "phone",
+            "on",
+            "the",
+            "sofa"
+        ],
+        "entities": [
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Action"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "Trajector"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 12,
+                "end": 13,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "me",
+            "yogurt",
+            "from",
+            "the",
+            "fridge"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 1,
+                "end": 2,
+                "type": "GoalIndicator"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 3
+            },
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "phone",
+            "on",
+            "the",
+            "table",
+            "in",
+            "the",
+            "dining",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            },
+            {
+                "head": 2,
+                "tail": 3,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "can",
+            "you",
+            "grab",
+            "my",
+            "wine",
+            "glass",
+            "from",
+            "the",
+            "dining",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 6,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "could",
+            "you",
+            "put",
+            "the",
+            "vase",
+            "on",
+            "the",
+            "table",
+            "please"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "paper",
+            "near",
+            "the",
+            "television"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "robot",
+            "put",
+            "this",
+            "plate",
+            "in",
+            "the",
+            "center",
+            "of",
+            "the",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 8,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "carry",
+            "the",
+            "phone",
+            "to",
+            "the",
+            "chair"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "please",
+            "bring",
+            "the",
+            "mobile",
+            "phone",
+            "to",
+            "the",
+            "livingroom"
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "down",
+            "the",
+            "newspaper"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "place",
+            "the",
+            "mug",
+            "on",
+            "the",
+            "sink",
+            "nearest",
+            "to",
+            "the",
+            "refrigerator"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "soap",
+            "on",
+            "the",
+            "bathroom",
+            "sink"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "robot",
+            "give",
+            "her",
+            "some",
+            "milk"
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "bottle",
+            "of",
+            "water",
+            "on",
+            "the",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "cereal",
+            "box"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "laptop",
+            "and",
+            "the",
+            "book",
+            "on",
+            "the",
+            "table",
+            "on",
+            "the",
+            "couch"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            },
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "could",
+            "you",
+            "bring",
+            "the",
+            "phone",
+            "to",
+            "the",
+            "bathroom",
+            "please"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "bottle",
+            "to",
+            "the",
+            "dining",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "coke",
+            "that",
+            "is",
+            "in",
+            "the",
+            "kitchen"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "release",
+            "the",
+            "pot"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "grab",
+            "the",
+            "beer",
+            "pack",
+            "near",
+            "the",
+            "kitchen",
+            "door"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "phone",
+            "to",
+            "the",
+            "bedroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "go",
+            "to",
+            "the",
+            "bedroom",
+            "and",
+            "take",
+            "the",
+            "mobile",
+            "near",
+            "the",
+            "pillow",
+            "on",
+            "the",
+            "bed"
+        ],
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "Trajector"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "phone",
+            "near",
+            "the",
+            "table",
+            "at",
+            "your",
+            "right"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "laptop",
+            "that",
+            "is",
+            "on",
+            "the",
+            "table",
+            "on",
+            "the",
+            "couch"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "bottle",
+            "in",
+            "the",
+            "bin"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "please",
+            "grab",
+            "the",
+            "cover",
+            "on",
+            "the",
+            "bed",
+            "in",
+            "the",
+            "living",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "grab",
+            "the",
+            "box",
+            "on",
+            "the",
+            "left",
+            "of",
+            "the",
+            "desktop"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "laptop",
+            "near",
+            "the",
+            "table",
+            "of",
+            "the",
+            "dining",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            },
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "get",
+            "me",
+            "my",
+            "towel"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "get",
+            "a",
+            "fork",
+            "from",
+            "the",
+            "drawer"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "jacket",
+            "in",
+            "the",
+            "wardrobe"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "mug",
+            "to",
+            "the",
+            "kitchen"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "pillow",
+            "under",
+            "the",
+            "bed"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "soap",
+            "to",
+            "the",
+            "shower"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "bottle",
+            "from",
+            "the",
+            "table",
+            "and",
+            "use",
+            "it",
+            "to",
+            "water",
+            "the",
+            "plant"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "can",
+            "you",
+            "bring",
+            "the",
+            "mug",
+            "to",
+            "the",
+            "couch",
+            "in",
+            "the",
+            "living",
+            "room",
+            "please"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "let",
+            "'s",
+            "take",
+            "the",
+            "soap",
+            "to",
+            "the",
+            "kitchen"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "may",
+            "you",
+            "please",
+            "take",
+            "it",
+            "to",
+            "the",
+            "restroom"
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "book",
+            "on",
+            "the",
+            "table",
+            "near",
+            "the",
+            "wine",
+            "glass"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 1,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "drop",
+            "the",
+            "vase"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "take",
+            "my",
+            "trousers",
+            "on",
+            "the",
+            "bed",
+            "and",
+            "put",
+            "them",
+            "in",
+            "the",
+            "washing",
+            "machine"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "Action"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            },
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "my",
+            "wristwatch"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "bring",
+            "me",
+            "the",
+            "cookie",
+            "jar"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "please",
+            "take",
+            "my",
+            "trash",
+            "to",
+            "the",
+            "laundry",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "salt",
+            "box"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "take",
+            "my",
+            "jacket",
+            "from",
+            "the",
+            "jacket",
+            "hook",
+            "in",
+            "my",
+            "bedroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "Trajector"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            },
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "me",
+            "a",
+            "glass",
+            "of",
+            "water"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "laptop",
+            "on",
+            "the",
+            "table",
+            "near",
+            "the",
+            "tv"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "robot",
+            "grab",
+            "the",
+            "box",
+            "on",
+            "the",
+            "floor",
+            "and",
+            "inspect",
+            "it"
+        ],
+        "entities": [
+            {
+                "start": 1,
+                "end": 2,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "newspaper",
+            "to",
+            "the",
+            "studio"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "can",
+            "you",
+            "take",
+            "the",
+            "mug",
+            "to",
+            "the",
+            "coffee",
+            "table",
+            "in",
+            "the",
+            "living",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "GoalIndicator"
+            },
+            {
+                "start": 7,
+                "end": 9,
+                "type": "Trajector"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            },
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "grab",
+            "the",
+            "pillow",
+            "at",
+            "the",
+            "left",
+            "of",
+            "the",
+            "couch"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "beer",
+            "cans",
+            "in",
+            "the",
+            "kitchen"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "grab",
+            "the",
+            "cover",
+            "on",
+            "the",
+            "sofa",
+            "in",
+            "the",
+            "living",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "get",
+            "my",
+            "computer",
+            "from",
+            "the",
+            "seat"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "phone",
+            "to",
+            "the",
+            "dinner",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "beers",
+            "here",
+            "and",
+            "put",
+            "them",
+            "on",
+            "the",
+            "table",
+            "next",
+            "to",
+            "the",
+            "couch"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "GoalIndicator"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Trajector"
+            },
+            {
+                "start": 10,
+                "end": 12,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 3,
+                "tail": 4
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "cigarettes",
+            "near",
+            "the",
+            "counter",
+            "on",
+            "the",
+            "right"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "box",
+            "from",
+            "the",
+            "table",
+            "to",
+            "the",
+            "kitchen"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 1,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "my",
+            "phone",
+            "into",
+            "the",
+            "living",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "could",
+            "you",
+            "bring",
+            "my",
+            "water",
+            "into",
+            "the",
+            "bedroom"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "grab",
+            "the",
+            "cover",
+            "on",
+            "the",
+            "bed",
+            "in",
+            "the",
+            "bedroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "me",
+            "the",
+            "towel",
+            "from",
+            "the",
+            "drawer"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "me",
+            "my",
+            "towel",
+            "that",
+            "is",
+            "in",
+            "the",
+            "bathroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 1,
+                "end": 2,
+                "type": "GoalIndicator"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Trajector"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 1
+            },
+            {
+                "type": "Spatial",
+                "head": 2,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "carry",
+            "the",
+            "paper",
+            "near",
+            "the",
+            "counter"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "i",
+            "want",
+            "some",
+            "fruit",
+            "bring",
+            "me",
+            "an",
+            "apple",
+            "or",
+            "an",
+            "orange"
+        ],
+        "entities": [
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "could",
+            "you",
+            "put",
+            "the",
+            "vase",
+            "on",
+            "the",
+            "coffee",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "take",
+            "the",
+            "newspaper",
+            "from",
+            "the",
+            "stand",
+            "and",
+            "put",
+            "it",
+            "on",
+            "the",
+            "coffee",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "Action"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            },
+            {
+                "head": 3,
+                "tail": 4,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "bottle",
+            "to",
+            "the",
+            "kitchen"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "could",
+            "you",
+            "pick",
+            "up",
+            "the",
+            "telephone"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "mobile",
+            "to",
+            "the",
+            "living",
+            "room"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "go",
+            "to",
+            "the",
+            "kitchen",
+            "and",
+            "take",
+            "the",
+            "glass",
+            "near",
+            "the",
+            "book",
+            "on",
+            "the",
+            "red",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "Trajector"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "move",
+            "to",
+            "the",
+            "bedroom",
+            "and",
+            "take",
+            "the",
+            "mouse",
+            "near",
+            "the",
+            "laptop",
+            "on",
+            "the",
+            "bed"
+        ],
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "Trajector"
+            },
+            {
+                "start": 8,
+                "end": 9,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "could",
+            "you",
+            "take",
+            "the",
+            "knife",
+            "on",
+            "the",
+            "cutting",
+            "board"
+        ],
+        "entities": [
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "Trajector"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 1,
+                "tail": 2,
+                "type": "Spatial"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "could",
+            "you",
+            "please",
+            "move",
+            "the",
+            "trash",
+            "bin",
+            "from",
+            "the",
+            "kitchen",
+            "to",
+            "the",
+            "studio"
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Action"
+            },
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Trajector"
+            },
+            {
+                "start": 7,
+                "end": 8,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 10,
+                "end": 11,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Transition",
+                "head": 0,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "robot",
+            "can",
+            "you",
+            "bring",
+            "me",
+            "a",
+            "bath",
+            "towel"
+        ],
+        "entities": [
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Action"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "bring",
+            "the",
+            "toilet",
+            "paper",
+            "to",
+            "the",
+            "bathroom"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "bring",
+            "over",
+            "the",
+            "gray",
+            "folder"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "Color"
+            }
+        ],
+        "relations": []
+    },
+    {
+        "tokens": [
+            "grasp",
+            "the",
+            "book",
+            "on",
+            "the",
+            "table",
+            "near",
+            "the",
+            "wine",
+            "glass"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 2,
+                "end": 3,
+                "type": "Trajector"
+            },
+            {
+                "start": 3,
+                "end": 4,
+                "type": "SpatialIndicator"
+            },
+            {
+                "start": 6,
+                "end": 7,
+                "type": "SpatialIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 2
+            },
+            {
+                "type": "Spatial",
+                "head": 1,
+                "tail": 3
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "go",
+            "to",
+            "the",
+            "dinner",
+            "table",
+            "take",
+            "the",
+            "plates",
+            "and",
+            "bring",
+            "them",
+            "to",
+            "the",
+            "side",
+            "table"
+        ],
+        "entities": [
+            {
+                "start": 5,
+                "end": 6,
+                "type": "Action"
+            },
+            {
+                "start": 9,
+                "end": 10,
+                "type": "Action"
+            },
+            {
+                "start": 11,
+                "end": 12,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "type": "Transition",
+                "head": 1,
+                "tail": 2
+            }
+        ]
+    },
+    {
+        "tokens": [
+            "put",
+            "the",
+            "baking",
+            "tray",
+            "in",
+            "the",
+            "oven"
+        ],
+        "entities": [
+            {
+                "start": 0,
+                "end": 1,
+                "type": "Action"
+            },
+            {
+                "start": 4,
+                "end": 5,
+                "type": "GoalIndicator"
+            }
+        ],
+        "relations": [
+            {
+                "head": 0,
+                "tail": 1,
+                "type": "Transition"
+            }
+        ]
+    }
+]
