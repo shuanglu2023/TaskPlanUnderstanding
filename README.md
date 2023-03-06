@@ -29,15 +29,18 @@ If you have ideas for releases in the future, it is a good idea to list them in 
 A. Vanzo, D. Croce, E. Bastianelli, R. Basili, and D. Nardi,
 “Grounded language interpretation of robotic commands through
 structured learning,” Artificial Intelligence, vol. 278, 2020.
+
 <a id="2">[2]</a> 
 K. Dukes, “SemEval-2014 task 6: Supervised semantic parsing of
 robotic spatial commands,” in Proceedings of the 8th International
 Workshop on Semantic Evaluation (SemEval 2014). Dublin, Ireland: Association for Computational Linguistics, Aug. 2014, pp. 45–53.
+
 <a id="3">[3]</a> 
 R. Scalise, S. Li, H. Admoni, S. Rosenthal, and S. S. Srinivasa, “Natural
 language instructions for human–robot collaborative manipulation,”
 The International Journal of Robotics Research, vol. 37, no. 6, pp.
 558–565, 2018.
+
 <a id="4">[4]</a> 
 M. Eberts and A. Ulges, “Span-based joint entity and relation extraction
 with transformer pre-training,” arXiv preprint arXiv:1909.07755,
