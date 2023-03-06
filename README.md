@@ -4,12 +4,6 @@ The model is trained using (https://github.com/lavis-nlp/spert).
 To reproduce the results, please download the annotated data and train it with SpERT.
 
 
-
-## Support
-Please contact shuang.lu@igcv.fraunhofer.de for questions.
-
-
-
 ## References
 <a id="1">[1]</a> 
 A. Vanzo, D. Croce, E. Bastianelli, R. Basili, and D. Nardi,
