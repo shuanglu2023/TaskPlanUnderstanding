@@ -42,9 +42,7 @@ The International Journal of Robotics Research, vol. 37, no. 6, pp.
 558–565, 2018.
 
 <a id="4">[4]</a> 
-M. Eberts and A. Ulges, “Span-based joint entity and relation extraction
-with transformer pre-training,” arXiv preprint arXiv:1909.07755,
-2019.
+Markus Eberts, Adrian Ulges. Span-based Joint Entity and Relation Extraction with Transformer Pre-training. 24th European Conference on Artificial Intelligence, 2020.
 ## Authors and acknowledgment
 Show your appreciation to those who have contributed to the project.
 
