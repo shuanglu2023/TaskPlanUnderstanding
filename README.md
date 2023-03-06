@@ -30,7 +30,7 @@ The International Journal of Robotics Research, vol. 37, no. 6, pp.
 <a id="4">[4]</a> 
 Markus Eberts, Adrian Ulges. Span-based Joint Entity and Relation Extraction with Transformer Pre-training. 24th European Conference on Artificial Intelligence, 2020.
 ## Authors and acknowledgment
-This research was conducted within the project MeMo-
+This research was conducted within the project MeMo
 Rob (AKZ: DIK0358/01) funded by the Bavarian Ministry
 of Economic Affairs, Regional Development and Energy
 (StMWi). The authors would like to thank the StMWi for
