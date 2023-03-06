@@ -37,5 +37,5 @@ of Economic Affairs, Regional Development and Energy
 their financial support.
 
 ## License
-For open source projects, say how it is licensed.
+Apache-2.0 license
 
