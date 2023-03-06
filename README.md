@@ -25,6 +25,7 @@ Tell people where they can go to for help. It can be any combination of an issue
 If you have ideas for releases in the future, it is a good idea to list them in the README.
 
 ## References
+[@cite
 @article{DBLP:journals/ai/VanzoCBBN20,
   author    = {Andrea Vanzo and
                Danilo Croce and
@@ -40,7 +41,7 @@ If you have ideas for releases in the future, it is a good idea to list them in 
   doi       = {10.1016/j.artint.2019.103181},
   biburl    = {https://dblp.org/rec/bib/journals/ai/VanzoCBBN20},
   bibsource = {dblp computer science bibliography, https://dblp.org}
-}
+}]
 
 ## Authors and acknowledgment
 Show your appreciation to those who have contributed to the project.
