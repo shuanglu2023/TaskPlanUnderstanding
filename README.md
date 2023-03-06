@@ -26,22 +26,9 @@ If you have ideas for releases in the future, it is a good idea to list them in 
 
 ## References
 <a id="1">[1]</a> 
-@article{DBLP:journals/ai/VanzoCBBN20,
-  author    = {Andrea Vanzo and
-               Danilo Croce and
-               Emanuele Bastianelli and
-               Roberto Basili and
-               Daniele Nardi},
-  title     = {Grounded language interpretation of robotic commands through structured
-               learning},
-  journal   = {Artificial Intelligence},
-  volume    = {278},
-  year      = {2020},
-  url       = {https://doi.org/10.1016/j.artint.2019.103181},
-  doi       = {10.1016/j.artint.2019.103181},
-  biburl    = {https://dblp.org/rec/bib/journals/ai/VanzoCBBN20},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
+A. Vanzo, D. Croce, E. Bastianelli, R. Basili, and D. Nardi,
+“Grounded language interpretation of robotic commands through
+structured learning,” Artificial Intelligence, vol. 278, 2020.
 
 ## Authors and acknowledgment
 Show your appreciation to those who have contributed to the project.
