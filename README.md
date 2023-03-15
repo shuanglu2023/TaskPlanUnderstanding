@@ -1,8 +1,11 @@
 ## Description
-
 The model is trained using (https://github.com/lavis-nlp/spert).
 To reproduce the results, please download the annotated data and train it with SpERT.
 
+## Usage
+To annotate more data in SemEval Task 6 2014 dataset, the script annotate.py can be used. 
+One should download the data from https://github.com/heatherleaf/semeval-2014-task6.git. 
+The results of each sentence will be saved in to a folder with path "dataset/semeval/".
 
 ## References
 <a id="1">[1]</a> 
