@@ -1,3 +1,8 @@
+"""
+@Author: Shuang Lu, shuang.lu@igcv.fraunhofer.de
+"""
+
+
 from asyncio.base_futures import _FINISHED
 from cgi import test
 import os
