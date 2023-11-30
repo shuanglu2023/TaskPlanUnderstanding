@@ -10,7 +10,7 @@ The results of each sentence will be saved in to a folder with path "dataset/sem
 
 ## Citation 
 If this work is helpful in your research, please cite:
-'''
+```
 @INPROCEEDINGS{10309598,
   author={Lu, Shuang and Berger, Julia and Schilp, Johannes},
   booktitle={2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)}, 
@@ -20,7 +20,7 @@ If this work is helpful in your research, please cite:
   number={},
   pages={1794-1799},
   doi={10.1109/RO-MAN57019.2023.10309598}}
-'''
+```
 
 ## References
 <a id="1">[1]</a> 
