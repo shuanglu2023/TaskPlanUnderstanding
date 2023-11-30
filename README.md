@@ -8,6 +8,19 @@ To annotate more data in SemEval Task 6 2014 dataset, the script annotate.py can
 One should download the data from https://github.com/heatherleaf/semeval-2014-task6.git. 
 The results of each sentence will be saved in to a folder with path "dataset/semeval/".
 
+## Citation 
+If this work is helpful in your research, please cite:
+@INPROCEEDINGS{10309598,
+  author={Lu, Shuang and Berger, Julia and Schilp, Johannes},
+  booktitle={2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)}, 
+  title={Extracting robotic task plan from natural language instruction using BERT and syntactic dependency parser}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1794-1799},
+  doi={10.1109/RO-MAN57019.2023.10309598}}
+
+
 ## References
 <a id="1">[1]</a> 
 A. Vanzo, D. Croce, E. Bastianelli, R. Basili, and D. Nardi,
