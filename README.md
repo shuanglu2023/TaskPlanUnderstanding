@@ -1,4 +1,8 @@
 ## Description
+This is the repository for our paper *Extracting robotic task plan from natural language instruction using BERT and syntactic dependency parser*. 
+We also plan to add updates after paper submission, which is under prepartion. 
+Please do not hesitate to reach out if you need more information.
+
 The model is trained using (https://github.com/lavis-nlp/spert).
 To reproduce the results, please download the annotated data and train it with SpERT.
 The model trained with combined data with hurm, huric and semeval are reported in final_model.
