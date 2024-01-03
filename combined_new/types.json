@@ -1,0 +1,14 @@
+{"entities": 
+    {
+    "Action": {"short": "Action", "verbose": "Action"}, 
+    "Trajector": {"short": "Trajector", "verbose": "Trajector"},
+    "SpatialIndicator": {"short": "SpatialIndicator", "verbose": "SpatialIndicator"},
+    "GoalIndicator": {"short": "GoalIndicator", "verbose": "GoalIndicator"},
+    "Color": {"short": "Color", "verbose": "Color"}
+    }, 
+"relations": 
+    {
+    "Spatial": {"short": "Spatial", "verbose": "Spatial", "symmetric": false},
+    "Transition": {"short": "Transition", "verbose": "Transition", "symmetric": false}
+    }
+}
