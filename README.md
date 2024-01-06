@@ -5,7 +5,9 @@ Please do not hesitate to reach out if you need more information.
 
 The model is trained using (https://github.com/lavis-nlp/spert).
 To reproduce the results, please download the annotated data and train it with SpERT.
-The model trained with combined data with hurm, huric and semeval are reported in final_model.
+The model trained with combined data with hurm \ref{3}, huric and semeval are reported in final_model.
+
+You must also cite papers of these 3 datasets in any publications if you use the dataset and the final model (trained on 100K+ego).
 
 ## Usage
 To annotate more data in SemEval Task 6 2014 dataset, the script annotate.py can be used. 
