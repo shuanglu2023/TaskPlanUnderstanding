@@ -5,7 +5,7 @@ Please do not hesitate to reach out if you need more information.
 
 The model is trained using (https://github.com/lavis-nlp/spert).
 To reproduce the results, please download the annotated data and train it with SpERT.
-The model trained with combined data with hurm \ref{3}, huric and semeval are reported in final_model.
+The model trained with combined data with [hurm](https://github.com/personalrobotics/collaborative_manipulation_corpus), [huric](https://github.com/crux82/huric) and [semeval](https://github.com/heatherleaf/semeval-2014-task6) are reported in final_model.
 
 You must also cite papers of these 3 datasets in any publications if you use the dataset and the final model (trained on 100K+ego).
 
