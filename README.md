@@ -3,11 +3,11 @@ This is the repository for our paper *Extracting robotic task plan from natural 
 We plan to add recent working updates after paper submission, which are under preparation. 
 Please do not hesitate to reach out if you need more information.
 
-The model is trained using (https://github.com/lavis-nlp/spert).
+The model is trained using [SpERT](https://github.com/lavis-nlp/spert).
 To reproduce the results, please download the annotated data and train it with SpERT.
 The model trained with combined data with [hurm](https://github.com/personalrobotics/collaborative_manipulation_corpus), [huric](https://github.com/crux82/huric) and [semeval](https://github.com/heatherleaf/semeval-2014-task6) are reported in final_model.
 
-You must also cite papers of these 3 datasets in any publications if you use the dataset and the final model (trained on 100K+ego).
+You must also cite papers of these 3 datasets and the [SpERT model](https://github.com/lavis-nlp/spert) in any publications if you use the dataset and the final model.
 
 ## Usage
 To annotate more data in SemEval Task 6 2014 dataset, the script annotate.py can be used. 
